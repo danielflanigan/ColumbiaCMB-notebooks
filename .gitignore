@@ -1,2 +1,3 @@
-scratch.ipynb
+*.pyc
 *-checkpoint.ipynb
+scratch.ipynb
