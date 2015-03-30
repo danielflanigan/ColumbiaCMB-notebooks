@@ -1,5 +1,8 @@
+from IPython.display import HTML
+
+
 def toggle_input():
-    return '''<script>
+    return HTML('''<script>
         code_show=true;
         function code_toggle() {
          if (code_show){
@@ -11,5 +14,5 @@ def toggle_input():
         }
         $( document ).ready(code_toggle);
         </script>
-        <form action="javascript:code_toggle()"><input type="submit" value="Hide/show the raw code."></form>'''
+        <form action="javascript:code_toggle()"><input type="submit" value="Hide/show the raw code."></form>''')
 
