@@ -1,4 +1,7 @@
-from ipywidgets import HTML
+try:
+    from ipywidgets import HTML
+except ImportError:
+    from IPython.display import HTML
 
 
 def toggle_input_code():
