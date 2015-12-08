@@ -1,3 +1,9 @@
 *.pyc
 *-checkpoint.ipynb
 scratch.ipynb
+*.npy
+*.csv
+*.pkl
+*.png
+*.pdf
+*.eps
