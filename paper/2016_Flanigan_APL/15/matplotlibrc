@@ -1,0 +1,82 @@
+# General
+backend: TkAgg
+
+
+# Lines
+lines.linewidth: 0.6
+lines.markersize: 3 # in points
+
+# Fonts and text
+# Apparently, matplotlib will use only fonts in
+# site-packages/matplotlib/mpl-data/fonts/
+# with mathtext. 
+font.family: serif
+# This doesn't work here for unknown reasons. Not sure what font it's using.
+#font.serif: Times New Roman
+font.size: 11
+text.color: black
+# STIX is supposed to work well with Times, but Times currently doesn't work.
+mathtext.fontset: stix
+
+# LaTeX
+text.usetex: True
+
+# Postscript
+ps.useafm: True
+pdf.use14corefonts: True
+
+# Axes
+axes.edgecolor: black
+axes.linewidth: 0.3
+axes.titlesize: x-small
+axes.labelsize: x-small
+axes.labelcolor: black
+
+# Ticks
+xtick.major.size: 2.5
+ytick.major.size: 2.5
+xtick.minor.size: 2.0
+ytick.minor.size: 2.0
+xtick.major.width: 0.5
+ytick.major.width: 0.5
+xtick.minor.width: 0.5
+ytick.minor.width: 0.5
+xtick.color: black
+ytick.color: black
+xtick.labelsize: xx-small
+ytick.labelsize: xx-small
+
+# Grids
+grid.color: gray
+
+# Legend
+legend.numpoints: 1
+legend.fontsize: xx-small
+legend.frameon: False
+legend.handletextpad: 0.1
+legend.handlelength: 3
+legend.columnspacing: 1
+
+# Figure
+figure.figsize: 3, 2
+figure.dpi: 300
+figure.facecolor: white
+figure.max_open_warning: 50
+# All dimensions are a fraction of the figure width or height
+figure.subplot.left: 0.22 # the left side of the subplots
+figure.subplot.right: 0.92 # the right side of the subplots
+figure.subplot.bottom: 0.15 # the bottom of the subplots
+#figure.subplot.top: 0.9 # the top of the subplots
+figure.subplot.wspace: 0.2 # the width between subplots
+#figure.subplot.hspace: 0.2 # the height between subplots
+
+# Savefig
+savefig.dpi: 600
+savefig.bbox: tight
+#savefig.pad_inches: 0
+
+# Image
+image.interpolation: nearest
+image.cmap: coolwarm
+image.origin: lower
+ 
