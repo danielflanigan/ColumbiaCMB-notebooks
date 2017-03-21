@@ -2,6 +2,7 @@
 *-checkpoint.ipynb
 scratch.ipynb
 *.npy
+*.npz
 *.csv
 *.pkl
 *.png
