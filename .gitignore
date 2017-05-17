@@ -8,3 +8,6 @@ scratch.ipynb
 *.png
 *.pdf
 *.eps
+
+*~
+.DS_Store
