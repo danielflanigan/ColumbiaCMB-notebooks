@@ -1,0 +1,20 @@
+#######################################################################
+#SPTpol 100d BB bandpowers and bandpower errors.
+#No calibration or beam uncertainties are included.
+#
+#Columns are (1) ell_center, (2) ell_min (3) ell_max 
+#(4) 95x95 bandpower, (5) 95x95 error
+#(6) 95x150 bandpower, (7) 95x150 error
+#(8) 150x150 bandpower, (9) 150x150 error
+#(10) inverse-variance-weighted combined bandpower
+#(11) inverse-variance-weighted combined error
+#
+#All values are given in \ell_center * C_l with units of [10^{-3} uK^2]
+#
+#Generated 2015/02/24
+#######################################################################
+500 	 300 	 700 	 3.4 	 1.4 	 0.88 	 0.55 	 0.57 	 0.33 	 0.76 	 0.28	
+900 	 700 	 1100 	 2.9 	 1.1 	 1.18 	 0.50 	 0.51 	 0.32 	 0.82 	 0.26	
+1300 	 1100 	 1500 	 0.4 	 1.3 	 0.27 	 0.50 	 1.07 	 0.37 	 0.77 	 0.29	
+1700 	 1500 	 1900 	 0.2 	 1.5 	 -0.23 	 0.55 	 0.16 	 0.38 	 0.04 	 0.30	
+2100 	 1900 	 2300 	 -1.7 	 1.6 	 -0.59 	 0.61 	 -0.29 	 0.47 	 -0.47 	 0.36	

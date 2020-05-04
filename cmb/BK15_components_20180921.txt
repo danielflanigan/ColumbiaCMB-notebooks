@@ -1,0 +1,33 @@
+# BICEP2/Keck Array October 2018 Data Products
+# BICEP2/Keck Array X: Constraints on Primordial Gravitational Waves using Planck, WMAP, and New BICEP2/Keck Observations through the 2015 Season
+# http://bicepkeck.org/
+#
+# File: BK15_components_20180921.txt
+# Date: 2018-09-21
+#
+# This file contains the per-ell bin spectral decomposition found in
+# Figure 14 of BICEP2/Keck Array X. For the 150 GHz amplitude of CMB,
+# dust, and synchrotron components, we provide the most probable value
+# in each bin, as well as 68% and 95% credible intervals, all derived
+# from 1D marginalized posteriors. We have additionally marginalized 
+# over the spectral indices of the dust and synchrotron components, 
+# as well as possible dust-sync spatial correlation. See BICEP2/Keck 
+# Array X for more details.
+#
+# Points in this file should be used for display purposes only. 
+# Component amplitudes in each ell bin are highly correlated and 
+# correlations exist between ell bins as well.
+#
+# Columns: lmin, lcenter, lmax, CMB max, CMB 68% low, CMB 68% high,
+#          CMB 95% low, CMB 95% high, dust max, dust 68% low, dust 68% high, 
+#          dust 95% low, dust 95% high, sync max, sync 68% low, sync 68% high, 
+#          sync 95% low, sync 95% high
+ 37   46.5   54  0.00e+00  0.00e+00  2.63e-03  0.00e+00  7.46e-03  9.76e-03  4.87e-03  2.15e-02  2.09e-03  5.06e-02  3.03e-05  0.00e+00  2.69e-04  0.00e+00  1.23e-03  
+ 60   73.6   86  1.38e-03  1.05e-04  2.89e-03  0.00e+00  5.34e-03  9.59e-03  6.82e-03  1.35e-02  4.79e-03  1.90e-02  3.38e-05  0.00e+00  2.22e-04  0.00e+00  6.37e-04  
+ 93  107.4  121  6.40e-03  4.22e-03  8.98e-03  2.35e-03  1.21e-02  9.02e-03  6.72e-03  1.19e-02  4.89e-03  1.54e-02  0.00e+00  0.00e+00  1.01e-04  0.00e+00  4.27e-04  
+126  141.0  156  8.44e-03  5.71e-03  1.14e-02  3.33e-03  1.48e-02  7.41e-03  4.95e-03  1.05e-02  2.89e-03  1.42e-02  3.00e-05  0.00e+00  3.07e-04  0.00e+00  9.34e-04  
+158  173.8  192  1.30e-02  8.94e-03  1.73e-02  5.20e-03  2.20e-02  7.72e-03  4.52e-03  1.15e-02  1.86e-03  1.59e-02  1.16e-04  0.00e+00  6.36e-04  0.00e+00  1.72e-03  
+190  205.5  227  2.02e-02  1.56e-02  2.53e-02  1.12e-02  3.09e-02  0.00e+00  0.00e+00  2.58e-03  0.00e+00  5.85e-03  0.00e+00  0.00e+00  9.95e-04  0.00e+00  3.56e-03  
+221  237.3  262  2.09e-02  1.48e-02  2.73e-02  9.24e-03  3.42e-02  6.85e-03  2.72e-03  1.14e-02  0.00e+00  1.60e-02  0.00e+00  0.00e+00  8.55e-04  0.00e+00  2.87e-03  
+254  270.3  297  3.60e-02  2.79e-02  4.48e-02  2.05e-02  5.44e-02  0.00e+00  0.00e+00  5.20e-03  0.00e+00  1.13e-02  0.00e+00  0.00e+00  1.62e-03  0.00e+00  5.25e-03  
+286  303.1  332  3.38e-02  2.26e-02  4.55e-02  1.21e-02  5.78e-02  1.38e-04  0.00e+00  7.14e-03  0.00e+00  1.54e-02  3.20e-05  0.00e+00  1.67e-03  0.00e+00  4.83e-03  

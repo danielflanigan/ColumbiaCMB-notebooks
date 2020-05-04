@@ -1,0 +1,27 @@
+# BICEP2/Keck Array January 2015 Data Products
+# The Keck Array and BICEP2 Collaborations, BK-V: Measurements of B-mode Polarization at Degree Angular Scales and 150 GHz by Keck Array
+# http://bicepkeck.org/
+#
+# File: BK_bandpowers_20150130.txt 
+# Date: 2015-01-30
+# 
+# BICEP2/Keck Array combined bandpowers 
+# This text file contains the BICEP2/Keck Array combined TT, TE, EE, BB, TB, and EB bandpowers [ell*(ell+1)*C_{ell}/(2*pi)] and uncertainties. 
+# They correspond to Figure 9 of BK-V and the left column of Figure 2 of A Joint Analysis of BICEP2/Keck Array and Planck Data.
+# Uncertainties are statistical only, the standard deviation of the constrained lensed-ΛCDM+noise simulations. 
+# Uncertainties are calculated as the square root of diagonal elements of the bandpower covariance matrix. 
+# The nature of the simulations constrains T to match the observed sky. Thus TT, TE, and TB uncertainties do not include appropriate sample variance.
+# Sample variance for a tensor BB signal is not included either.
+# The calibration procedure uses TB and EB to constrain the polarization angle. Thus TB and EB cannot be used to measure astrophysical polarization rotation.
+# The units are uK^2. 
+# 
+# Columns: lmin, lcenter, lmax, TT, TE, EE, BB, TB, EB, dTT, dTE, dEE, dBB, dTB, dEB 
+ 21  45.3   55   1.05e+03   3.17e+00   1.45e-01   5.55e-03   -9.58e-01   5.22e-03   2.35e+01   2.39e+00   3.81e-02   1.21e-03   4.22e-01   4.52e-03 
+ 56  74.2   90   1.42e+03   -5.15e+00   5.18e-01   1.10e-02   -9.35e-01   3.87e-03   8.78e+00   3.15e+00   7.93e-02   9.88e-04   3.86e-01   6.21e-03 
+ 91  109.2  125   3.07e+03   -3.10e+01   9.04e-01   1.39e-02   -5.10e-01   1.15e-02   8.82e+00   5.27e+00   1.40e-01   1.45e-03   6.36e-01   1.02e-02 
+126  144.3  160   5.07e+03   -4.94e+01   1.04e+00   1.33e-02   -4.16e-01   5.28e-03   1.07e+01   5.74e+00   1.49e-01   2.13e-03   8.30e-01   1.27e-02 
+161  179.1  195   5.45e+03   -2.67e+01   6.22e-01   2.02e-02   -5.68e-02   -2.18e-04   1.05e+01   5.30e+00   1.10e-01   3.05e-03   1.01e+00   1.22e-02 
+196  213.7  230   6.19e+03   1.71e+01   8.95e-01   2.51e-02   -8.62e-01   3.29e-02   1.14e+01   5.76e+00   1.07e-01   4.50e-03   1.17e+00   1.43e-02 
+231  248.4  265   5.97e+03   5.68e+01   2.05e+00   2.54e-02   -8.68e-01   -1.39e-02   1.16e+01   7.05e+00   2.47e-01   6.11e-03   1.37e+00   2.73e-02 
+266  283.0  300   4.45e+03   1.11e+02   6.73e+00   3.12e-02   8.17e-01   3.22e-02   9.74e+00   8.43e+00   5.25e-01   9.39e-03   1.33e+00   5.02e-02 
+301  317.2  335   3.90e+03   1.45e+02   1.40e+01   4.23e-02   -1.05e-01   3.09e-02   9.62e+00   1.13e+01   1.07e+00   1.39e-02   1.55e+00   8.36e-02 
